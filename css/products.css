@@ -1,0 +1,680 @@
+.productsList .inBanner .slogan {
+  max-width: 380px;
+}
+.productsList .mainBox {
+  position: relative;
+}
+.productsList .mainBox .bg {
+  position: absolute;
+  width: 80%;
+  right: 0;
+  background: url("../images/index/products_bg.jpg") center top no-repeat;
+  background-size: cover;
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: 1000px) {
+  .productsList .mainBox .bg {
+    width: 100%;
+  }
+}
+.productsList .pageTitle {
+  margin-bottom: 30px;
+  text-align: left;
+}
+@media screen and (max-width: 1000px) {
+  .productsList .pageTitle {
+    margin-bottom: 80px;
+  }
+}
+.productsList .hasSide .sideBox {
+  flex-shrink: 0;
+  width: auto;
+  padding-right: 50px;
+}
+@media screen and (max-width: 1000px) {
+  .productsList .hasSide .sideBox {
+    padding-right: 0;
+    margin-bottom: 50px;
+  }
+}
+.productsList .hasSide .contentBox {
+  width: 80%;
+}
+@media screen and (max-width: 1000px) {
+  .productsList .hasSide .contentBox {
+    width: 100%;
+  }
+}
+.productsList .content {
+  padding-bottom: 8% !important;
+}
+.productsList .sideMenu {
+  position: sticky;
+  top: 50px;
+}
+@media screen and (min-width: 1001px) {
+  .productsList .sideMenu {
+    top: 100px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .productsList .sideMenu {
+    display: none;
+  }
+}
+.productsList .sideMenu .now {
+  padding: 10px 20px;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #000;
+  display: block;
+  background: #FFF;
+  border: #dddddd 1px solid;
+  display: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+  .productsList .sideMenu .now {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.productsList .sideMenu .now::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border: 2px solid #000;
+  transform: rotate(45deg);
+  border-width: 0 2px 2px 0;
+}
+.productsList .sideMenu .list {
+  display: none;
+  background: #FFF;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+  border: #dddddd 1px solid;
+}
+@media screen and (min-width: 1001px) {
+  .productsList .sideMenu .list {
+    background: none;
+    width: 250px;
+    display: block !important;
+    box-shadow: none;
+    border: none;
+  }
+}
+.productsList .sideMenu button {
+  width: 100%;
+  padding: 20px 0;
+  color: #000;
+  text-align: left;
+  font-size: 1.3125rem;
+  font-weight: 700;
+  background: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: 1000px) {
+  .productsList .sideMenu button {
+    padding: 10px 30px;
+    font-size: 1.125rem;
+  }
+}
+.productsList .sideMenu .active button {
+  color: #007940;
+}
+.productsList .content {
+  flex-grow: 1;
+}
+.productsList .content .listBox {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.productsList .content .title {
+  font-size: 2.1875rem;
+  color: #FFF;
+  background: #E63027;
+  position: absolute;
+  padding: 10px 25px;
+  top: 0;
+  right: 0;
+  transform: translateY(-50%);
+}
+@media screen and (max-width: 1000px) {
+  .productsList .content .title {
+    font-size: 1.875rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .productsList .content .title {
+    font-size: 1.75rem;
+  }
+}
+.productsList .content .item {
+  padding: 5% 0;
+  position: relative;
+}
+@media screen and (max-width: 1000px) {
+  .productsList .content .item {
+    padding: 50px 0;
+  }
+}
+.productsList .content .pic {
+  text-align: center;
+}
+.productsList .content img {
+  width: auto !important;
+  max-width: 100%;
+  mix-blend-mode: darken;
+}
+
+.productsList2 .inBanner .pageTitleBox {
+  width: 90%;
+  max-width: 960px;
+  right: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.productsList2 .inBanner .titleBox {
+  max-width: 960px;
+  text-align: center;
+}
+@media screen and (max-width: 1440px) {
+  .productsList2 .inBanner .titleBox {
+    max-width: 860px;
+  }
+}
+.productsList2 .inBanner .titleBox .title {
+  margin-bottom: 20px;
+}
+.productsList2 .inBanner .titleBox .slogan {
+  max-width: none;
+}
+.productsList2 .inBanner .pic::before {
+  background: rgba(0, 0, 0, 0.4);
+}
+.productsList2 .inBanner .pic img {
+  min-height: 250px;
+}
+.productsList2 .mainBox {
+  background: #F7F7F7;
+  overflow: hidden;
+}
+.productsList2 .mainBox .searchTitle {
+  margin-bottom: 5%;
+  font-size: 3.125rem;
+  font-weight: 600;
+}
+@media screen and (max-width: 1200px) {
+  .productsList2 .mainBox .searchTitle {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .productsList2 .mainBox .searchTitle {
+    font-size: 1.875rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .productsList2 .mainBox .searchTitle {
+    font-size: 1.25rem;
+  }
+}
+.productsList2 .mainBox .searchTitle span {
+  color: #007940;
+}
+@media screen and (max-width: 767px) {
+  .productsList2 .mainBox .searchTitle span {
+    display: block;
+  }
+}
+.productsList2 .listBox {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+@media screen and (max-width: 1000px) {
+  .productsList2 .listBox {
+    gap: 50px;
+  }
+}
+.productsList2 .item {
+  position: relative;
+  isolation: isolate;
+  padding: 5% 0;
+}
+@media screen and (max-width: 1000px) {
+  .productsList2 .item {
+    padding: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .productsList2 .item:nth-child(even)::before {
+    right: 10%;
+    left: auto;
+  }
+  .productsList2 .item:nth-child(even) .infoBox {
+    order: 2;
+  }
+}
+.productsList2 .item::before {
+  content: "";
+  position: absolute;
+  width: 130%;
+  top: 0;
+  left: 10%;
+  height: 100%;
+  background: url("../images/index/products_bg.jpg") left center no-repeat;
+  background-size: cover;
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: 1000px) {
+  .productsList2 .item::before {
+    left: 0;
+    width: 100%;
+  }
+}
+.productsList2 .item a {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+@media screen and (max-width: 767px) {
+  .productsList2 .item a {
+    flex-direction: column;
+  }
+}
+.productsList2 .item .pic {
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: 1000px) {
+  .productsList2 .item .pic {
+    margin: 20px;
+  }
+}
+.productsList2 .item .pic img {
+  transition: all 0.3s ease;
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.3));
+}
+.productsList2 .item .infoBox {
+  width: 375px;
+  background: #888888;
+  flex-shrink: 0;
+}
+@media screen and (max-width: 1000px) {
+  .productsList2 .item .infoBox {
+    flex-shrink: unset;
+    width: auto;
+  }
+}
+.productsList2 .item .infoBox .title {
+  color: #FFF;
+  padding: 20px 30px;
+  font-size: 2rem;
+}
+@media screen and (max-width: 1000px) {
+  .productsList2 .item .infoBox .title {
+    font-size: 1.625rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .productsList2 .item .infoBox .title {
+    font-size: 1.25rem;
+  }
+}
+.productsList2 .item .infoBox .more {
+  color: #FFF;
+  background: #E63027;
+  padding: 15px 30px;
+  position: relative;
+  isolation: isolate;
+}
+.productsList2 .item .infoBox .more::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: block;
+  background: #007940;
+  z-index: -1;
+  transition: all 0.3s ease;
+}
+.productsList2 .item:hover .pic {
+  transform: translate(-10px, -10px);
+}
+.productsList2 .item:hover .pic img {
+  filter: drop-shadow(10px 10px 6px rgba(0, 0, 0, 0.3));
+}
+.productsList2 .item:hover .more::before {
+  width: 100%;
+  left: 0;
+}
+
+.productsDetail .breadcrumbBox {
+  background: #007940;
+}
+.productsDetail .mainBox {
+  padding-bottom: 0;
+}
+.productsDetail .productsTitle {
+  max-width: 1000px;
+  font-size: 3.125rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 5%;
+}
+@media screen and (max-width: 1200px) {
+  .productsDetail .productsTitle {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .productsDetail .productsTitle {
+    font-size: 1.875rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .productsDetail .productsTitle {
+    font-size: 1.5rem;
+  }
+}
+.productsDetail .picBox {
+  position: relative;
+  margin-bottom: max(40px, 8%);
+}
+.productsDetail .picBox .listBox {
+  position: relative;
+}
+.productsDetail .picBox .listBox::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(to bottom, rgb(247, 247, 247) 0%, rgba(247, 247, 247, 0) 100%);
+  display: block;
+  right: 0;
+  left: 0;
+  top: 30px;
+  bottom: 0;
+  z-index: -1;
+}
+.productsDetail .picBox .listBox .item {
+  position: relative;
+  padding: 100px 0 60px;
+}
+.productsDetail .picBox .listBox .pic {
+  max-width: 1070px;
+  margin: 0 auto;
+}
+.productsDetail .picBox .listBox .pic img {
+  transition: all 0.3s ease;
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.3));
+}
+.productsDetail .picBox button.add {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #E63027;
+  border: none;
+  color: #FFF;
+  flex-grow: 1;
+  padding: 20px;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  right: 0;
+  isolation: isolate;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 1000px) {
+  .productsDetail .picBox button.add {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .productsDetail .picBox button.add {
+    font-size: 1rem;
+  }
+}
+.productsDetail .picBox button.add span {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  margin-left: 20px;
+  padding-left: 20px;
+}
+.productsDetail .picBox button.add span::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  -webkit-mask: url("../images/icon/icon_inquiry.svg") center right no-repeat;
+          mask: url("../images/icon/icon_inquiry.svg") center right no-repeat;
+  background: #fff;
+  flex-shrink: 0;
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: 767px) {
+  .productsDetail .picBox button.add span::after {
+    width: 20px;
+    height: 20px;
+  }
+}
+.productsDetail .picBox button.add::before {
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  display: block;
+  margin: auto;
+  inset: 0;
+  z-index: -1;
+  background: #007940;
+  transition: all 0.3s ease;
+}
+.productsDetail .picBox button.add:hover::before {
+  height: 100%;
+  width: 100%;
+}
+.productsDetail .slick-dots {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+@media screen and (max-width: 767px) {
+  .productsDetail .slick-dots {
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .productsDetail .slick-dots li {
+    margin: 0 5px;
+  }
+}
+.productsDetail .slick-dots li button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  color: transparent;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #B0B0B0;
+  border: none;
+}
+.productsDetail .slick-dots li.slick-active button {
+  background: #E63027;
+}
+.productsDetail .centerBtnBox {
+  transform: translateY(-50%);
+  margin-bottom: 3%;
+  position: sticky;
+  top: 120px;
+  z-index: 9;
+}
+@media screen and (max-width: 767px) {
+  .productsDetail .centerBtnBox {
+    transform: translateY(0);
+    margin-bottom: 40px;
+    top: 50px;
+  }
+}
+.productsDetail .centerBtnBox .navList {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+}
+.productsDetail .centerBtnBox .navList a,
+.productsDetail .centerBtnBox .navList button {
+  display: block;
+  width: calc((100% - 6px) / 3);
+  color: #fff;
+  background: #444444;
+  margin: 0 auto;
+  padding: 20px 40px;
+  font-size: 1.5rem;
+  transition: all 0.3s ease;
+}
+@media screen and (max-width: 1000px) {
+  .productsDetail .centerBtnBox .navList a,
+  .productsDetail .centerBtnBox .navList button {
+    font-size: 1.25rem;
+    padding: 15px 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .productsDetail .centerBtnBox .navList a,
+  .productsDetail .centerBtnBox .navList button {
+    width: 100%;
+    font-size: 0.8125rem;
+  }
+}
+.productsDetail .centerBtnBox .navList a:hover,
+.productsDetail .centerBtnBox .navList button:hover {
+  background: #007940;
+}
+.productsDetail .contentBox {
+  display: flex;
+  flex-direction: column;
+  background: #F7F7F7;
+  padding-bottom: 8%;
+}
+.productsDetail .contentBox .content {
+  margin-bottom: 7%;
+  padding-bottom: 7%;
+  border-bottom: 1px solid #000;
+}
+@media screen and (max-width: 767px) {
+  .productsDetail .contentBox .content {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+  }
+}
+.productsDetail .contentBox .content:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+.productsDetail .contentBox .content .description {
+  color: #444444;
+  font-size: 1.3125rem;
+}
+@media screen and (max-width: 1000px) {
+  .productsDetail .contentBox .content .description {
+    font-size: 1.125rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .productsDetail .contentBox .content .description {
+    font-size: 1rem;
+  }
+}
+.productsDetail .contentBox .content .description ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+.productsDetail .subTitle {
+  color: #007940;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 1000px) {
+  .productsDetail .subTitle {
+    font-size: 1.75rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .productsDetail .subTitle {
+    font-size: 1.5rem;
+  }
+}
+.productsDetail .secTitle {
+  color: #444444;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 30px;
+  font-size: 1.75rem;
+}
+@media screen and (max-width: 1000px) {
+  .productsDetail .secTitle {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .productsDetail .secTitle {
+    font-size: 1.25rem;
+  }
+}
+.productsDetail .notice {
+  color: #D90000;
+}
+.productsDetail .tableUse {
+  margin-bottom: 40px;
+}
+.productsDetail .tableUse + .secTitle {
+  margin-top: 6%;
+}
+.productsDetail table thead {
+  background: #B0B0B0;
+  color: #FFF;
+}
+.productsDetail table thead th {
+  min-width: 160px;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.4;
+}
+.productsDetail table thead th:nth-child(1) {
+  min-width: 260px;
+}
+.productsDetail table th,
+.productsDetail table td {
+  padding: 15px 20px;
+  border: #DDDDDD 1px solid;
+}
+.productsDetail table td {
+  color: #444444;
+  line-height: 1.4;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+.productsDetail table td:nth-child(1) {
+  border-left: none;
+}
+.productsDetail table td:nth-last-child(1) {
+  border-right: none;
+}
+.productsDetail table td:not(:nth-child(1)) {
+  text-align: center;
+}/*# sourceMappingURL=products.css.map */

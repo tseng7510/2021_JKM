@@ -1,0 +1,199 @@
+.contact .mainBox {
+  padding-bottom: 0;
+}
+.contact .container .blockTitle {
+  font-size: 1.75rem;
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 1000px) {
+  .contact .container .blockTitle {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contact .container .blockTitle {
+    font-size: 1.25rem;
+  }
+}
+.contact .container .info {
+  text-align: center;
+  max-width: 720px;
+  margin: 0 auto 50px;
+  font-size: 1.125rem;
+}
+@media screen and (max-width: 767px) {
+  .contact .container .info {
+    font-size: 1rem;
+  }
+}
+.contact .formBox {
+  max-width: 1360px;
+  margin: 0 auto 5%;
+  padding: 7% 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.contact .formBox ul {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.contact .formBox .inputItem {
+  flex-wrap: wrap;
+}
+.contact .formBox .inputItem label {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.contact .pageBtnBox {
+  padding-top: 0;
+  margin-bottom: 10%;
+}
+.contact .bottomBox {
+  padding-top: 5%;
+  padding-bottom: 10%;
+  background: #F7F7F7;
+  background-size: contain;
+}
+.contact .bottomBox .map {
+  line-height: 0;
+  position: relative;
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 1000px) {
+  .contact .bottomBox .map {
+    margin-bottom: 50px;
+  }
+}
+.contact .bottomBox .map::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 86px;
+  height: 86px;
+  background: #E63027;
+  border-radius: 50%;
+}
+@media screen and (max-width: 1000px) {
+  .contact .bottomBox .map::before {
+    width: 50px;
+    height: 50px;
+  }
+}
+.contact .bottomBox .map::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 86px;
+  height: 86px;
+  -webkit-mask: url("../images/icon/icon_location.svg") center no-repeat;
+          mask: url("../images/icon/icon_location.svg") center no-repeat;
+  -webkit-mask-size: 40%;
+          mask-size: 40%;
+  background: #fff;
+}
+@media screen and (max-width: 1000px) {
+  .contact .bottomBox .map::after {
+    -webkit-mask-size: 30%;
+            mask-size: 30%;
+    width: 50px;
+    height: 50px;
+  }
+}
+.contact .bottomBox .map iframe {
+  width: 100%;
+}
+.contact .bottomBox .address {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 1000px) {
+  .contact .bottomBox .address {
+    font-size: 1.375rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contact .bottomBox .address {
+    font-size: 1.25rem;
+  }
+}
+.contact .bottomBox ul {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+}
+@media screen and (max-width: 1000px) {
+  .contact .bottomBox ul {
+    flex-direction: column;
+  }
+}
+.contact .bottomBox ul li {
+  width: calc((100% - 6px) / 3);
+  font-size: 1.3125rem;
+  padding: 20px;
+  text-align: center;
+  background: #444444;
+  color: #FFF;
+}
+@media screen and (max-width: 1000px) {
+  .contact .bottomBox ul li {
+    width: 100%;
+    font-size: 1.125rem;
+  }
+}
+.contact .bottomBox ul li a {
+  color: #FFF;
+}
+
+.contactOk .mainBox {
+  text-align: center;
+}
+.contactOk .mainBox .title {
+  max-width: 570px;
+  margin: 0 auto;
+  line-height: 1.2;
+  font-size: 3rem;
+  margin-bottom: clamp(20px, 5%, 50px);
+}
+@media screen and (max-width: 1000px) {
+  .contactOk .mainBox .title {
+    font-size: 2.25rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contactOk .mainBox .title {
+    font-size: 1.5rem;
+  }
+}
+.contactOk .mainBox .txt {
+  color: #333333;
+  font-size: 1.125rem;
+}
+@media screen and (max-width: 1000px) {
+  .contactOk .mainBox .txt {
+    font-size: 1rem;
+  }
+}
+.contactOk .mainBox .subTitle {
+  color: #007940;
+  font-weight: 500;
+  font-size: 1.75rem;
+  margin-bottom: clamp(20px, 5%, 50px);
+}
+@media screen and (max-width: 1000px) {
+  .contactOk .mainBox .subTitle {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contactOk .mainBox .subTitle {
+    font-size: 1.25rem;
+  }
+}/*# sourceMappingURL=contact.css.map */

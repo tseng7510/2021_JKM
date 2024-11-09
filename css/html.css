@@ -1,0 +1,59 @@
+@charset "UTF-8";
+.html .breadcrumbBox {
+  background: #007940;
+}
+.html .mainBox {
+  background: url("../images/in/news_bg.jpg") center bottom no-repeat;
+  background-size: cover;
+}
+.html .mainBox .pageTitle {
+  text-align: center;
+  font-size: 3.125rem;
+  font-weight: 500;
+  margin-bottom: 8%;
+}
+@media screen and (max-width: 1000px) {
+  .html .mainBox .pageTitle {
+    font-size: 2.75rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .html .mainBox .pageTitle {
+    font-size: 2.25rem;
+  }
+}
+.html .mainBox .pageTitle span {
+  color: #007940;
+}
+.html .editor {
+  max-width: 1150px;
+  margin: 0 auto;
+  color: #000;
+  font-size: 1.3125rem;
+  line-height: 1.45;
+}
+@media screen and (max-width: 1000px) {
+  .html .editor {
+    font-size: 1.125rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .html .editor {
+    font-size: 1rem;
+  }
+}
+.html .editor ul.style li {
+  position: relative;
+  padding: 5px 0 5px 20px;
+}
+.html .editor ul.style li::before {
+  content: "◆";
+  color: #007940;
+  position: absolute;
+  left: 0;
+}
+
+.editor span.title {
+  color: #007940;
+  font-weight: 700;
+}/*# sourceMappingURL=html.css.map */
