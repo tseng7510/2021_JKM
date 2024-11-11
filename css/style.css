@@ -1,11 +1,11 @@
 @charset "UTF-8";
-@import url("../plugins/slick/1.9/slick.min.css");
-@import url("../plugins/swiper-master/swiper-bundle.min.css");
-@import url("../plugins/WOW-master/css/libs/animate.css");
-@import url("../plugins/Magnific-Popup-master/dist/magnific-popup.css");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('../plugins/slick/1.9/slick.min.css');
+@import url('../plugins/swiper-master/swiper-bundle.min.css');
+@import url('../plugins/WOW-master/css/libs/animate.css');
+@import url('../plugins/Magnific-Popup-master/dist/magnific-popup.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -69,7 +69,7 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
   /* 2 */
 }
 
@@ -145,24 +145,24 @@ select {
 }
 
 button,
-[type=button],
-[type=reset],
-[type=submit] {
+[type='button'],
+[type='reset'],
+[type='submit'] {
   -webkit-appearance: button;
 }
 
 button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
 
 button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -193,25 +193,26 @@ textarea {
   overflow: auto;
 }
 
-[type=checkbox],
-[type=radio] {
+[type='checkbox'],
+[type='radio'] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */
 }
 
-[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+[type='number']::-webkit-inner-spin-button,
+[type='number']::-webkit-outer-spin-button {
   height: auto;
 }
 
-[type=search] {
+[type='search'] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
   /* 2 */
 }
-[type=search]::-webkit-search-decoration {
+[type='search']::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -357,15 +358,15 @@ body {
   position: relative;
   margin: 0 auto;
   padding: 0;
-  color: #130A06;
+  color: #130a06;
   font-size: 1rem;
-  font-family: "Roboto", "Noto Sans TC", Arial, "微軟正黑體", "Microsoft JhengHei", "蘋果儷中黑", "Apple LiGothic Medium", sans-serif, "0xe804";
+  font-family: 'Roboto', 'Noto Sans TC', Arial, '微軟正黑體', 'Microsoft JhengHei', '蘋果儷中黑', 'Apple LiGothic Medium', sans-serif, '0xe804';
   line-height: 1.75;
   background: #fff;
 }
 
 a {
-  color: #130A06;
+  color: #130a06;
   transition: all 0.3s ease;
 }
 a:hover {
@@ -399,9 +400,9 @@ section {
   position: relative;
 }
 
-[type=text],
-[type=password],
-[type=email] {
+[type='text'],
+[type='password'],
+[type='email'] {
   border: none;
   width: 100%;
   background: none;
@@ -437,7 +438,7 @@ textarea {
   font-weight: 600;
 }
 .select::before {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   text-indent: 0px;
@@ -576,7 +577,7 @@ button:focus {
   width: 100% !important;
   height: 100%;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .tableUse {
@@ -595,7 +596,7 @@ button:focus {
 }
 .tableUse::-webkit-scrollbar-track {
   border-radius: 0;
-  background: #DFDFDF;
+  background: #dfdfdf;
 }
 
 .mobileBtn {
@@ -616,9 +617,10 @@ button:focus {
     display: none;
   }
 }
-.mobileBtn::before, .mobileBtn::after {
+.mobileBtn::before,
+.mobileBtn::after {
   position: absolute;
-  content: "";
+  content: '';
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -637,7 +639,7 @@ button:focus {
   right: 100%;
   top: 50%;
   transform: translateY(-50%);
-  color: #FFF;
+  color: #fff;
 }
 @media screen and (max-width: 1000px) {
   .mobileBtn span {
@@ -714,7 +716,7 @@ button:focus {
     left: 0;
     width: 100%;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-    background: #FFF;
+    background: #fff;
   }
   .headFix .siteHeader .headerBox {
     padding: 10px 0;
@@ -742,7 +744,7 @@ button:focus {
   isolation: isolate;
 }
 .insidePages .inBanner::before {
-  content: "";
+  content: '';
   position: absolute;
   right: 0;
   top: 60px;
@@ -772,7 +774,7 @@ button:focus {
   }
 }
 .insidePages .inBanner .pic::before {
-  content: "";
+  content: '';
   position: absolute;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 65%, rgb(0, 0, 0) 87%);
   display: block;
@@ -781,7 +783,7 @@ button:focus {
 .insidePages .inBanner img {
   min-height: 120px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .insidePages .inBanner .pageTitleBox {
   position: absolute;
@@ -803,7 +805,7 @@ button:focus {
   }
 }
 .insidePages .inBanner .titleBox .title {
-  color: #FFF;
+  color: #fff;
   font-size: 5.25rem;
   line-height: 1.1;
   font-weight: 600;
@@ -835,7 +837,7 @@ button:focus {
   font-weight: 300;
   font-size: 1.3125rem;
   line-height: 1.8;
-  color: #FFF;
+  color: #fff;
   opacity: 0.6;
   margin-top: 5%;
 }
@@ -868,7 +870,7 @@ button:focus {
   font-weight: 700;
   color: #000;
   display: block;
-  background: #FFF;
+  background: #fff;
   border: #dddddd 1px solid;
   display: none;
   line-height: 1.75;
@@ -882,7 +884,7 @@ button:focus {
   }
 }
 .insidePages .navBox button::after {
-  content: "";
+  content: '';
   width: 12px;
   height: 12px;
   border: 2px solid #000;
@@ -938,12 +940,12 @@ button:focus {
   }
 }
 .insidePages .navBox nav ul a:hover {
-  color: #FFF;
-  background: #5052AD;
+  color: #fff;
+  background: #5052ad;
 }
 .insidePages .navBox nav ul .active a {
-  color: #FFF;
-  background: #5052AD;
+  color: #fff;
+  background: #5052ad;
 }
 .insidePages .mainBox {
   padding-top: clamp(40px, 5%, 100px);
@@ -972,7 +974,7 @@ button:focus {
   }
 }
 .insidePages .hasSide .sideBox .pic {
-  background: url("../images/in/side_bg.jpg") right top no-repeat;
+  background: url('../images/in/side_bg.jpg') right top no-repeat;
   background-size: cover;
   display: flex;
   align-items: flex-end;
@@ -992,7 +994,7 @@ button:focus {
   margin: 0 0 0 auto;
 }
 .insidePages .hasSide .sideBox button.now {
-  color: #FFF;
+  color: #fff;
   background: #007940;
   display: flex;
   align-items: center;
@@ -1011,20 +1013,20 @@ button:focus {
   }
 }
 .insidePages .hasSide .sideBox button.now::after {
-  content: "";
+  content: '';
   display: block;
   width: 10px;
   height: 10px;
   transform: translateY(-40%) rotate(45deg);
   margin: 0 0 0 20px;
-  border: 2px solid #FFF;
+  border: 2px solid #fff;
   border-width: 0 2px 2px 0;
 }
 .insidePages .hasSide .sideBox ul {
   display: none;
   position: absolute;
   z-index: 9;
-  background: #FFF;
+  background: #fff;
   width: 100%;
 }
 @media screen and (min-width: 1001px) {
@@ -1055,12 +1057,12 @@ button:focus {
   }
 }
 .insidePages .hasSide .sideBox ul li a:hover {
-  color: #FFF;
+  color: #fff;
   background: #007940;
 }
 .insidePages .hasSide .sideBox ul li.active a {
-  color: #5052AC;
-  background: #E6E6F4;
+  color: #5052ac;
+  background: #e6e6f4;
 }
 @media screen and (min-width: 1001px) {
   .insidePages .hasSide .sideBox ul li.active a {
@@ -1183,7 +1185,8 @@ button:focus {
     padding: 0;
   }
 }
-.menuBox .mainMenu > ul > li > a, .menuBox .mainMenu > ul > li > button {
+.menuBox .mainMenu > ul > li > a,
+.menuBox .mainMenu > ul > li > button {
   padding: 5px 20px;
   display: block;
   width: 100%;
@@ -1193,26 +1196,29 @@ button:focus {
   font-weight: 500;
 }
 @media screen and (max-width: 1200px) {
-  .menuBox .mainMenu > ul > li > a, .menuBox .mainMenu > ul > li > button {
+  .menuBox .mainMenu > ul > li > a,
+  .menuBox .mainMenu > ul > li > button {
     padding: 10px 10px;
   }
 }
 @media screen and (max-width: 767px) {
-  .menuBox .mainMenu > ul > li > a, .menuBox .mainMenu > ul > li > button {
+  .menuBox .mainMenu > ul > li > a,
+  .menuBox .mainMenu > ul > li > button {
     padding: 15px 40px;
     border-bottom: #e3e3e3 1px solid;
   }
-  .menuBox .mainMenu > ul > li > a.active, .menuBox .mainMenu > ul > li > button.active {
-    color: #FFF;
+  .menuBox .mainMenu > ul > li > a.active,
+  .menuBox .mainMenu > ul > li > button.active {
+    color: #fff;
     background: #007940;
   }
 }
-@media screen and (min-width: 1001px) {
+/* @media screen and (min-width: 1001px) {
   .menuBox .mainMenu > ul > li:first-child .nextMenuBox {
     display: none !important;
     width: 250px;
   }
-}
+} */
 @media screen and (max-width: 1000px) {
   .menuBox .mainMenu > ul > li {
     font-size: 1.125rem;
@@ -1237,7 +1243,7 @@ button:focus {
   width: 100% !important;
   transform: translateX(0) !important;
   left: 0;
-  background: #5052AD;
+  background: #5052ad;
 }
 .menuBox .mainMenu > ul .full .nextMenuBox .menuListBox {
   padding: 0 20px;
@@ -1268,7 +1274,7 @@ button:focus {
   }
 }
 .menuBox .mainMenu > ul .full .nextMenuBox .menuListBox .item::before {
-  content: "";
+  content: '';
   position: absolute;
   inset: 0;
   z-index: -2;
@@ -1304,13 +1310,13 @@ button:focus {
   opacity: 1;
 }
 .menuBox .mainMenu > ul .full .nextMenuBox .menuListBox .item:nth-child(1)::after {
-  content: "L";
+  content: 'L';
 }
 .menuBox .mainMenu > ul .full .nextMenuBox .menuListBox .item:nth-child(2)::after {
-  content: "M";
+  content: 'M';
 }
 .menuBox .mainMenu > ul .full .nextMenuBox .menuListBox .item:nth-child(3)::after {
-  content: "C";
+  content: 'C';
 }
 .menuBox .mainMenu > ul .full .nextMenuBox .menuListBox .pic {
   max-width: 250px;
@@ -1324,7 +1330,7 @@ button:focus {
 .menuBox .mainMenu > ul .full .nextMenuBox .menuListBox .title {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #FFF;
+  color: #fff;
   margin-bottom: 20px;
 }
 @media screen and (max-width: 1000px) {
@@ -1344,20 +1350,20 @@ button:focus {
 .menuBox .mainMenu > ul .full .nextMenuBox .menuListBox a {
   background: none;
   text-align: left;
-  color: #CBCBE5;
+  color: #cbcbe5;
   padding: 0;
   position: relative;
   border: none;
 }
 .menuBox .mainMenu > ul .full .nextMenuBox .menuListBox a::before {
-  content: "";
+  content: '';
   width: 20px;
   height: 18px;
-  -webkit-mask: url("../images/icon/icon_more.svg") center right no-repeat;
-          mask: url("../images/icon/icon_more.svg") center right no-repeat;
+  -webkit-mask: url('../images/icon/icon_more.svg') center right no-repeat;
+  mask: url('../images/icon/icon_more.svg') center right no-repeat;
   -webkit-mask-size: cover;
-          mask-size: cover;
-  background: #EC8E2A;
+  mask-size: cover;
+  background: #ec8e2a;
   display: block;
   position: absolute;
   right: calc(100% + 10px);
@@ -1366,7 +1372,7 @@ button:focus {
   transition: all 0.3s ease;
 }
 .menuBox .mainMenu > ul .full .nextMenuBox .menuListBox a:hover {
-  color: #FFF;
+  color: #fff;
 }
 .menuBox .mainMenu > ul .full .nextMenuBox .menuListBox a:hover::before {
   opacity: 1;
@@ -1385,8 +1391,9 @@ button:focus {
     transform: translateX(-50%);
     width: 200px;
   }
-  .menuBox .nextMenuBox::before, .menuBox .nextMenuBox::after {
-    content: "";
+  .menuBox .nextMenuBox::before,
+  .menuBox .nextMenuBox::after {
+    content: '';
     position: absolute;
     left: 0;
     top: 0;
@@ -1425,7 +1432,7 @@ button:focus {
   text-align: center;
   font-size: 1.125rem;
   position: relative;
-  background: #FFF;
+  background: #fff;
   transition: all 0.3s ease;
 }
 @media screen and (max-width: 1000px) {
@@ -1436,7 +1443,7 @@ button:focus {
 }
 .menuBox .nextMenuBox a:hover,
 .menuBox .nextMenuBox button:hover {
-  color: #FFF;
+  color: #fff;
   background: #007940;
 }
 .menuBox .nextMenuBox ul ul {
@@ -1469,7 +1476,7 @@ button:focus {
   }
 }
 .topNav .btn::before {
-  content: "";
+  content: '';
   width: 23px;
   height: 23px;
   display: block;
@@ -1501,7 +1508,7 @@ button:focus {
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
-  background: #FFF;
+  background: #fff;
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
 }
 .topNav ul li a {
@@ -1516,7 +1523,7 @@ button:focus {
   }
 }
 .topNav ul li a:hover {
-  color: #FFF;
+  color: #fff;
   background: #007940;
 }
 
@@ -1526,8 +1533,8 @@ button:focus {
 .topNav .inquiry a::before,
 .topNav .inquiry button::before {
   order: 2;
-  -webkit-mask: url("../images/icon/icon_inquiry.svg") center no-repeat;
-          mask: url("../images/icon/icon_inquiry.svg") center no-repeat;
+  -webkit-mask: url('../images/icon/icon_inquiry.svg') center no-repeat;
+  mask: url('../images/icon/icon_inquiry.svg') center no-repeat;
 }
 .topNav .inquiry a span,
 .topNav .inquiry button span {
@@ -1535,7 +1542,7 @@ button:focus {
   display: none;
 }
 .topNav .inquiry .hasItem::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 6px;
   height: 6px;
@@ -1559,8 +1566,8 @@ button:focus {
 }
 .language button::before {
   order: 2;
-  -webkit-mask: url("../images/icon/icon_language.svg") center no-repeat;
-          mask: url("../images/icon/icon_language.svg") center no-repeat;
+  -webkit-mask: url('../images/icon/icon_language.svg') center no-repeat;
+  mask: url('../images/icon/icon_language.svg') center no-repeat;
 }
 .language button span {
   position: relative;
@@ -1568,8 +1575,8 @@ button:focus {
 }
 
 .menuSearch > button::before {
-  -webkit-mask: url("../images/icon/icon_search.svg") center no-repeat;
-          mask: url("../images/icon/icon_search.svg") center no-repeat;
+  -webkit-mask: url('../images/icon/icon_search.svg') center no-repeat;
+  mask: url('../images/icon/icon_search.svg') center no-repeat;
 }
 .menuSearch .searchOuter {
   width: 0;
@@ -1597,8 +1604,9 @@ button:focus {
   aspect-ratio: 1;
   margin: 10px;
 }
-.menuSearch .searchOuter .searchClose::before, .menuSearch .searchOuter .searchClose::after {
-  content: "";
+.menuSearch .searchOuter .searchClose::before,
+.menuSearch .searchOuter .searchClose::after {
+  content: '';
   width: 15px;
   height: 3px;
   top: 50%;
@@ -1620,10 +1628,10 @@ button:focus {
   color: #fff;
 }
 .menuSearch .searchOuter .searchBox input::-moz-placeholder {
-  color: #FFF;
+  color: #fff;
 }
 .menuSearch .searchOuter .searchBox input::placeholder {
-  color: #FFF;
+  color: #fff;
 }
 .menuSearch .searchOuter .searchBtn {
   position: relative;
@@ -1635,12 +1643,12 @@ button:focus {
   justify-content: center;
 }
 .menuSearch .searchOuter .searchBtn::before {
-  content: "";
+  content: '';
   width: 20px;
   height: 20px;
   display: block;
-  -webkit-mask: url("../images/icon/icon_search.svg") center no-repeat;
-          mask: url("../images/icon/icon_search.svg") center no-repeat;
+  -webkit-mask: url('../images/icon/icon_search.svg') center no-repeat;
+  mask: url('../images/icon/icon_search.svg') center no-repeat;
   background: #fff;
 }
 .menuSearch .searchOuter.active {
@@ -1689,10 +1697,10 @@ button:focus {
   transition: all 0.3s ease;
 }
 .breadcrumbBox .breadcrumb li a:hover {
-  color: #FAED00;
+  color: #faed00;
 }
 .breadcrumbBox .breadcrumb li::after {
-  content: "/";
+  content: '/';
   margin: 0px 10px;
   font-weight: bold;
   display: block;
@@ -1702,7 +1710,7 @@ button:focus {
   color: #fff;
 }
 .breadcrumbBox .breadcrumb li:last-child {
-  color: #FFF;
+  color: #fff;
 }
 .breadcrumbBox .breadcrumb li:last-child::after {
   display: none;
@@ -1710,7 +1718,7 @@ button:focus {
 
 .footerBox {
   position: relative;
-  background: #050D0F;
+  background: #050d0f;
 }
 .footerBox .container {
   max-width: 1800px;
@@ -1749,12 +1757,12 @@ button:focus {
 .footerBox .footerMenu .menu a {
   display: block;
   font-size: 1rem;
-  color: #BABABA;
+  color: #bababa;
   font-weight: 300;
   line-height: 1.2;
 }
 .footerBox .footerMenu .menu a:hover {
-  color: #FAED00;
+  color: #faed00;
 }
 .footerBox .copyright {
   font-size: 13px;
@@ -1832,11 +1840,11 @@ button:focus {
   }
 }
 .pageBox .pagination li a:hover {
-  color: #FFF;
+  color: #fff;
   background: #007940;
 }
 .pageBox .pagination li.active a {
-  color: #FFF;
+  color: #fff;
   background: #007940;
 }
 .pageBox .pagination li.controls:first-child {
@@ -1867,12 +1875,12 @@ button:focus {
   transition: all 0.3s ease;
 }
 .pageBox .pagination li.controls a::before {
-  content: "";
+  content: '';
   width: 26px;
   height: 26px;
   display: block;
-  -webkit-mask: url("../images/icon/icon_arrow.svg") center no-repeat;
-          mask: url("../images/icon/icon_arrow.svg") center no-repeat;
+  -webkit-mask: url('../images/icon/icon_arrow.svg') center no-repeat;
+  mask: url('../images/icon/icon_arrow.svg') center no-repeat;
   background: #969696;
   transition: all 0.3s ease;
 }
@@ -1899,7 +1907,7 @@ button:focus {
   color: transparent;
   transition: all 0.3s ease;
   box-sizing: content-box;
-  background: #E63027;
+  background: #e63027;
 }
 @media screen and (max-width: 1000px) {
   .goTop {
@@ -1909,14 +1917,14 @@ button:focus {
   }
 }
 .goTop::before {
-  content: "";
+  content: '';
   width: 26px;
   height: 26px;
-  -webkit-mask: url("../images/icon/icon_arrow.svg") center no-repeat;
-          mask: url("../images/icon/icon_arrow.svg") center no-repeat;
+  -webkit-mask: url('../images/icon/icon_arrow.svg') center no-repeat;
+  mask: url('../images/icon/icon_arrow.svg') center no-repeat;
   -webkit-mask-size: contain;
-          mask-size: contain;
-  background: #FFF;
+  mask-size: contain;
+  background: #fff;
   display: block;
   position: absolute;
   top: 50%;
@@ -2006,10 +2014,12 @@ button:focus {
   color: #000;
   border-radius: 0;
   background: transparent;
-  border: #BFC3D0 1px solid;
+  border: #bfc3d0 1px solid;
   background: #fff;
 }
-.formBox .inputItem select.selectControl::-moz-placeholder, .formBox .inputItem input.inputControl::-moz-placeholder, .formBox .inputItem textarea.textareaControl::-moz-placeholder {
+.formBox .inputItem select.selectControl::-moz-placeholder,
+.formBox .inputItem input.inputControl::-moz-placeholder,
+.formBox .inputItem textarea.textareaControl::-moz-placeholder {
   color: #ccc;
 }
 .formBox .inputItem select.selectControl::placeholder,
@@ -2027,8 +2037,8 @@ button:focus {
   width: 100%;
 }
 .formBox .inputItem.required label::after {
-  content: "※";
-  color: #D90000;
+  content: '※';
+  color: #d90000;
   display: block;
   margin: 0 0 0 5px;
 }
@@ -2058,12 +2068,12 @@ button:focus {
   position: relative;
 }
 .formBox .itemBox ul li label::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 13px;
   height: 13px;
   display: block;
-  background: url("../images/icon/checkbox.png") bottom no-repeat;
+  background: url('../images/icon/checkbox.png') bottom no-repeat;
   left: 0px;
   top: 3px;
   z-index: 9;
@@ -2072,12 +2082,12 @@ button:focus {
   position: absolute;
   opacity: 0;
 }
-.formBox .itemBox ul li input[type=checkbox] {
+.formBox .itemBox ul li input[type='checkbox'] {
   margin-right: 5px;
   opacity: 0;
 }
-.formBox .itemBox ul li input[type=checkbox]:checked + label::before {
-  background: url("../images/checkbox.png") top no-repeat;
+.formBox .itemBox ul li input[type='checkbox']:checked + label::before {
+  background: url('../images/checkbox.png') top no-repeat;
 }
 .formBox a {
   color: #666666;
@@ -2088,7 +2098,7 @@ button:focus {
   margin: 0 auto 0 10px;
 }
 .formBox a:hover {
-  color: #0099FF;
+  color: #0099ff;
 }
 .formBox .checkImg {
   position: absolute;
@@ -2107,13 +2117,13 @@ button:focus {
   background: none;
 }
 .formBox .reBtn::before {
-  content: "";
+  content: '';
   width: 15px;
   height: 15px;
   top: 0;
   left: 0;
-  -webkit-mask: url("../images/icon/icon_re.svg") no-repeat;
-          mask: url("../images/icon/icon_re.svg") no-repeat;
+  -webkit-mask: url('../images/icon/icon_re.svg') no-repeat;
+  mask: url('../images/icon/icon_re.svg') no-repeat;
   background: #000;
   position: absolute;
   transition: all 0.3s ease;
@@ -2160,14 +2170,14 @@ button:focus {
 }
 .pageBtnBox .send::before,
 .pageBtnBox .back::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 0;
   right: 0;
   top: 0;
   bottom: 0;
   display: block;
-  background: #FAED00;
+  background: #faed00;
   z-index: -1;
   transition: all 0.3s ease;
 }
@@ -2263,13 +2273,14 @@ button:focus {
   aspect-ratio: 1;
   cursor: pointer;
   border-radius: 50%;
-  border: #5052AD 2px solid;
+  border: #5052ad 2px solid;
 }
-.lightBox .lightBoxClose::after, .lightBox .lightBoxClose::before {
-  content: "";
+.lightBox .lightBoxClose::after,
+.lightBox .lightBoxClose::before {
+  content: '';
   width: 12px;
   height: 2px;
-  background: #5052AD;
+  background: #5052ad;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -2336,4 +2347,4 @@ button:focus {
 }
 .lightBox .slick-dots li.slick-active button {
   background: #007940;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
