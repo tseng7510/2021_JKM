@@ -70,7 +70,7 @@
                 <nav class="navList wow fadeInUp" data-wow-delay="0s">
                   <button type="button" class="active">FEATURES</button>
                   <button type="button">SPECIFICATIONS</button>
-                  <button type="button">PDF DOWNLOAD</button>
+                  <!-- <button type="button">PDF DOWNLOAD</button> -->
                 </nav>
               </div>
             </div>
