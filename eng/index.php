@@ -74,10 +74,14 @@
               <div class="picBox wow fadeInLeft" data-wow-delay="0s">
                 <div class="listBox">
                   <div class="item">
-                    <div class="pic"><img src="../images/index/products.png" alt=""></div>
+                    <a href="#">
+                      <div class="pic"><img src="../images/index/products.png" alt=""></div>
+                    </a>
                   </div>
                   <div class="item">
-                    <div class="pic"><img src="../images/index/products.png" alt=""></div>
+                    <a href="#">
+                      <div class="pic"><img src="../images/index/products.png" alt=""></div>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -170,8 +174,8 @@
           <section class="worldBox">
             <div class="pic"><img src="../images/index/world.jpg" alt=""></div>
             <div class="info">
-              <h3 class="title">WORLDWIDE</h3>
-              <div class="description">Received by our clients in the USA., South America, Europe, Middle East and Africa.</div>
+              <h3 class="title">ESG</h3>
+              <div class="description">Powering a Greener Future with Sustainable Innovation.</div>
               <a href="#" class="indexMore">VIEW MORE</a>
             </div>
           </section>
